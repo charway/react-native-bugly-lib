@@ -1,0 +1,34 @@
+{
+  "name": "react-native-bugly-lib",
+  "title": "React Native Bugly Lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/react-native-bugly-lib.git",
+    "baseUrl": "https://github.com/github_account/react-native-bugly-lib"
+  },
+  "keywords": [
+    "react-native",
+    "bugly"
+  ],
+  "author": {
+    "name": "charway",
+    "email": "charway@qq.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-native": ">=0.61.0"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  }
+}
