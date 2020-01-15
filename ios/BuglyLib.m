@@ -26,6 +26,7 @@ RCT_EXPORT_METHOD(updateAppVersion:(NSString *)version)
 
 RCT_EXPORT_METHOD(error:(NSString *)message)
 {
-    [Bugly reportError:message];
+    NSException *exception = [NSException exceptionWithName:@"JS Error" reason:message userInfo:nil];
+    [Bugly reportException: exception];
 }
 @end
