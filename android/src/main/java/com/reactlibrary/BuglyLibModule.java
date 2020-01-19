@@ -73,4 +73,10 @@ public class BuglyLibModule extends ReactContextBaseJavaModule {
         return info.toString();
     }
 
+
+    @ReactMethod
+    public void init() {
+        Beta.init(this.getReactApplicationContext(),false);
+    }
+
 }
