@@ -76,10 +76,10 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
-    // compile 'com.tencent.bugly:crashreport:latest.release'
-    compile 'com.tencent.bugly:crashreport_upgrade:latest.release'
-    compile 'com.tencent.tinker:tinker-android-lib:latest.release'
-    compile 'com.tencent.bugly:nativecrashreport:latest.release'
+    // api 'com.tencent.bugly:crashreport:latest.release'
+    api 'com.tencent.bugly:crashreport_upgrade:latest.release'
+    api 'com.tencent.tinker:tinker-android-lib:latest.release'
+    api 'com.tencent.bugly:nativecrashreport:latest.release'
 }
 
 def configureReactNativePom(def pom) {
