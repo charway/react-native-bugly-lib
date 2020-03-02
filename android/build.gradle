@@ -78,7 +78,7 @@ dependencies {
     implementation 'com.facebook.react:react-native:+'  // From node_modules
     // api 'com.tencent.bugly:crashreport:latest.release'
     api 'com.tencent.bugly:crashreport_upgrade:latest.release'
-    api 'com.tencent.tinker:tinker-android-lib:latest.release'
+    // api 'com.tencent.tinker:tinker-android-lib:latest.release'
     api 'com.tencent.bugly:nativecrashreport:latest.release'
 }
 
