@@ -1,7 +1,7 @@
 {
   "name": "react-native-bugly-lib",
   "title": "React Native Bugly Lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bugly Lib for React Native",
   "main": "index.js",
   "scripts": {
